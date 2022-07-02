@@ -45,7 +45,7 @@ const Home = () => {
   const handleNewNotification = () => {
     dispatch({
       type: "error",
-      message: "Pleaser Connect Your Crypto Wallet",
+      message: "Please Connect Your Crypto Wallet",
       title: "Not Authenticated",
       position: "topL",
     });
